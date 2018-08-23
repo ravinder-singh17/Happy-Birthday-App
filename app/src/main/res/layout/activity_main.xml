@@ -1,0 +1,493 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/original"
+    tools:context="com.example.ravindersingh.project1.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#e5ffffff"
+        android:orientation="vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Q1) Which keyword is used to transfer control back to the calling function ?"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp">
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="switch"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/radio_box_ques1_option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="return"
+                android:textSize="14sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="go to"
+                android:textSize="14sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="go back"
+                android:textSize="14sp" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#589de7" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q2) Which of the following special symbol is allowed in a variable name ?"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp">
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="* (asterisk)"
+                android:textSize="14sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="| (pipeline)"
+                android:textSize="14sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="- (hyphen)"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/radio_box_ques2_option4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="_ (underscore)"
+                android:textSize="14sp" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#589de7" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q3) Which of the following function is used to find the first occurrence of a given string in another string ?"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp">
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="strchr()"
+                android:textSize="14sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="strrchr()"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/radio_box_ques3_option3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="strstr()"
+                android:textSize="14sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="strnset()"
+                android:textSize="14sp" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#589de7" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q4) Which header file should be included to use functions like malloc() and calloc()?"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp">
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="memory.h"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/radio_box_ques4_option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="stdlib.h"
+                android:textSize="14sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="string.h"
+                android:textSize="14sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="dos.h"
+                android:textSize="14sp" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#589de7" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q5) Which below is wrong of represenation of datatype?"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp">
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="boolean a = false ;"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/radio_box_ques5_option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="Float i = 0.00 ;"
+                android:textSize="14sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="int i = 2 ;"
+                android:textSize="14sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="double d = 2.3659 ;"
+                android:textSize="14sp" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#589de7" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q6) Class B inherits from Class A, what cannot be said ?"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">android:paddingTop="4dp"
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="B is a sub-class of A "
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/radio_box_ques6_option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="B has access to private members of A"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:paddingLeft="4dp"
+                android:text="A is a super-class of B"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:paddingLeft="4dp"
+                android:text="B has access to protected members of A"
+                android:textSize="14sp" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#589de7" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q7) Which below are the primitive data types?"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <CheckBox
+            android:id="@+id/checkbox_ques7_option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="message"
+            android:paddingLeft="4dp"
+            android:paddingTop="4dp"
+            android:text="int"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_ques7_option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="message"
+            android:paddingLeft="4dp"
+            android:text="float"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_ques7_option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="message"
+            android:paddingLeft="4dp"
+            android:text="structure"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_ques7_option4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="message"
+            android:paddingLeft="4dp"
+            android:text="union"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#589de7" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q8) Which among below are Object-oriented programming languages?"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <CheckBox
+            android:id="@+id/checkbox_ques8_option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="message"
+            android:paddingLeft="4dp"
+            android:paddingTop="4dp"
+            android:text="C++"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_ques8_option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="message"
+            android:paddingLeft="4dp"
+            android:text="Java"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_ques8_option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="message"
+            android:paddingLeft="4dp"
+            android:text="Python"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_ques8_option4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="message"
+            android:paddingLeft="4dp"
+            android:text="C"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#589de7" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Q9) When C was invented ?"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/text_field1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="answer only the year"
+            android:inputType="text" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#589de7" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="Q10) Total number of primitive data types in java are ?"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/text_field2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="answer in integer"
+            android:inputType="text" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#589de7" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="display"
+            android:text="SUBMIT" />
+
+    </LinearLayout>
+
+</ScrollView>
+
